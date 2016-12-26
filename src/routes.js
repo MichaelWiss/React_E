@@ -6,6 +6,13 @@ import App from'./components/app';
 const Greeting = () => {
 	return <div>Hey there!</div>;
 };
+;
+
+
+
+const Farewell = () => {
+	return <div>Goodbye!</div>;
+};
 
 
 export default (
@@ -13,5 +20,6 @@ export default (
      <Route path="greet" component={Greeting} />
      <Route path="greet2" component={Greeting} />
      <Route path="greet3" component={Greeting} />
+     <Route path="bye" component={Farewell} />
    </Route>
 );
